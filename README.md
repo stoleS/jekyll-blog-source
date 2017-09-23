@@ -1,2 +1,2 @@
-# stoleS.github.io
+# Blog
 Personal blog with jekyll
