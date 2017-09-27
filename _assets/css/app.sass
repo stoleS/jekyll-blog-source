@@ -2,8 +2,20 @@ body
 	font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol"
 	background-color: #fff
 
+.background-image
+	background-image: url("../../images/paralax.jpeg")
+	height: 100%
+	width: 50%
+	position: absolute
+	background-position: -25vw 
+	background-repeat: no-repeat
+	background-size: cover
+	background-attachment: fixed
+
 .page-content
 	padding: 0
+	position: relative
+	top: 0
 
 .columns.is-fullheight 
 	margin-bottom: 0
@@ -13,15 +25,18 @@ body
 
 .right-side
 	padding: 0
+	background-color: white
 
+.left-side
+	&::before
+		content: ""
+		position: absolute
+		width: 50%
+		height: 100vh
+		background-color: rgba(0, 0, 0, 0.2)
 
 .left-side .hero-body 
-	background-color: #999
-	background-image: url('https://hd.unsplash.com/photo-1457365050282-c53d772ef8b2')
-	-ms-background-position-x: center
-	-ms-background-position-y: bottom
-	background-position: center bottom
-	background-size: cover
+	background-color: transparent
 
 .left-side .hero-body .title 
 	color: #fff

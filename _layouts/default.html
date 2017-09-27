@@ -3,6 +3,7 @@
   {% include head.html %}
   <body>
     {% include header.html %}
+    <div class="background-image"></div>
     <main class="page-content" aria-label="Content">
       <div class="columns is-fullheight">
         <div class="column left-side is-half-desktop is-hidden-touch">
@@ -20,16 +21,7 @@
             <div class="hero-body">
               <div class="container">
                 <div class="column is-full-desktop">
-
-                  <h1 class="blog-timestamp">
-                  2 days ago
-                  </h1>
-                  <h1 class="blog-title">
-                  Cras feugiat euismod sem accumsan ultrices.
-                  </h1>
-                  <h2 class="blog-summary">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ornare malesuada dolor ut dictum. Pellentesque eget orci nisl. Vivamus sit amet ullamcorper elit. Donec mattis scelerisque dui sed convallis.
-                  </h2>
+                  {{ content }}
                 </div>
                 <div class="column is-full-desktop">
                   <h1 class="blog-timestamp">
