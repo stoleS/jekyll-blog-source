@@ -2,6 +2,15 @@ body
 	font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol"
 	background-color: #fff
 
+a:link
+	text-decoration: none
+
+.blog-title
+	color: #333 !important
+
+	&:hover
+		color: hsl(14, 100%, 53%) !important
+
 .background-image
 	background-image: url("../../images/paralax.jpeg")
 	height: 100%
@@ -12,16 +21,31 @@ body
 	background-size: cover
 	background-attachment: fixed
 
+.site-nav
+	z-index: 1
+
 .page-content
 	padding: 0
 	position: relative
 	top: 0
 
+.main-title
+	font-weight: bold !important
+
+	@media screen and (min-width: 1370px)
+		font-size: 4rem !important
+
 .columns.is-fullheight 
 	margin-bottom: 0
 
 .footer 
-	margin-top: -10px
+	padding-bottom: 3rem
+
+	i 
+		color: #333
+
+.more 
+	margin-bottom: 20px
 
 .right-side
 	padding: 0
@@ -33,7 +57,8 @@ body
 		position: absolute
 		width: 50%
 		height: 100vh
-		background-color: rgba(0, 0, 0, 0.2)
+		background-color: #f46b45
+		background: linear-gradient(to right, rgba(238,9,121, 0.3), rgba(255,106,0, 0.3))
 
 .left-side .hero-body 
 	background-color: transparent
