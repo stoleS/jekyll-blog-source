@@ -4,6 +4,20 @@
   <body>
     {% include header.html %}
     <main class="page-content" aria-label="Content">
+      <section>
+        <div class="hero is-dark is-medium post-img">
+          <div class="hero-body">
+            <div class="container has-text-centered">
+              <h1 class="title is-2">
+              {{ page.title | escape }}
+              </h1>
+              <h2 class="subtitle is-4">
+              Blog post subtitle
+              </h2>
+            </div>
+          </div>
+        </div>
+      </section>
       {{ content }}
     </main>
     {% include footer.html %}
