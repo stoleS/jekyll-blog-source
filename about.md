@@ -4,15 +4,12 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+Hi, my name is Predrag. I'm web developer from Serbia. Programming is my passion and something that inspires me. I graduated High School, department related to Computer Science, and I'm currently student at Higher Medical and Business-Technological School of Applied Studies. Some of my other passions are cars, gym, traveling... This is my personal blog made for fun and learning and here you can find some of my texts.
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+You can find the source code for this page at GitHub:
+[jekyll-blog-source](https://github.com/stoleS/jekyll-blog-source)
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+You can find the compiled version at GitHub:
+[stoleS.github.io](https://github.com/stoleS/stoleS.github.io)
 
 
-[jekyll-organization]: https://github.com/jekyll
